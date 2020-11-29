@@ -1,8 +1,8 @@
 /*QQ阅读书籍勋章打卡
 
 创建日期:2020.11.27
-当前版本:0.2
-最后修改:2020.11.29
+当前版本:0.3
+最后修改:2020.11.30
 
 Author:小曦同桌*/
 
@@ -79,7 +79,7 @@ if (book.notGotMedals.length == 0) {
         })
         let id = b_data.data.bookQurl
         let name = b_data.data.medalInfo.name
-        bid.push(id.slice(-8))
+        bid.push(id.slice(43))
         bidname.push(name)
         //console.log(bid[i])
     }
